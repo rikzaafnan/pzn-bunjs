@@ -1,3 +1,5 @@
+console.log("run server")
+
 Bun.serve({
     port:4999,
     fetch: (request, server) => {
